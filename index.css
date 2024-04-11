@@ -1,0 +1,128 @@
+
+
+@media print{
+    @page{
+        size: A4;
+        margin: 0;
+    }
+    body{
+        padding: 1.27cm;
+    }
+}body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-size: 14px;
+}
+.footer-shar{
+    width: 100%;
+}
+
+.scan img{
+     width: 100%;
+     height: 100%;
+}
+.ending {
+    text-align: start;
+
+}
+
+.scan-pay{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.no-space{
+    margin-bottom: 0;
+}
+.payment{
+    width: 100%;
+    text-align: end;
+}
+.table-head{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  td {
+  border: 1px solid #000;
+  }
+
+
+  h1 {
+    text-align: right;
+    text-transform: lowercase;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo img {
+
+    height: 80px;
+
+}
+
+.middle {
+    text-align: center;
+    font-size: 12px;
+}
+
+.address {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.right-text {
+    text-align: end;
+}
+
+.left-text {
+    text-align: start;
+}
+
+/* .left-text span{
+    margin-bottom: 0;
+} */
+
+.container details {
+
+    text-align: right;
+}
+
+.amount {
+    text-align: right;
+}
+
+table,
+td {
+    border: 2px solid #000 !important;
+}
+
+table.table-print td {
+    border: 2px solid #000;
+}
+h5{
+margin-bottom: 0;
+
+}
+p{
+    margin-bottom: 0px;
+}
